@@ -1,0 +1,53 @@
+body {
+  background-color: #000913;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(0, 22, 44, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.stopwatch {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.time {
+  font-size: 3em;
+  color: #ccd2d9;
+  margin-bottom: 40px;
+}
+
+.controls button {
+  padding: 15px;
+  margin: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.start-btn {
+  background-color: #009900;
+  color: #fff;
+}
+
+.pause-btn {
+  background-color: #e6e600;
+  color: #000;
+}
+
+.reset-btn {
+  background-color: #99001f;
+  color: #fff;
+}
